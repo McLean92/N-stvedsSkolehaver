@@ -1,0 +1,432 @@
+  /* custom font  */
+@font-face {
+  font-family: 'Brandon Grotesque';
+  src: url('../fonts/Brandon_reg.otf');
+}
+  /* styling af links */
+.linkHover {
+  color: #e4b363!important;
+}
+
+
+/* NAV-BAREN - LOGO PLACERING start */
+.uk-navbar {
+	height: 80px;
+  	max-height: 100%;
+  	max-width: 100%;
+    padding-bottom: 15px;
+}
+.uk-logo {
+    margin-top: -10px;
+    margin-bottom: -30px;
+    width: 150px!important;
+    height: 150px!important;
+
+}
+.uk-logo img {
+  	width: 150px!important;
+    height: 150px!important;
+  
+}
+	/* Styling logo only in Firefox browser */
+@-moz-document url-prefix() { .uk-logo img { 
+  	margin-top: -40px;
+    margin-bottom: 20px; } }
+/* NAV-BAREN - LOGO PLACERING slut */
+
+.uk-navbar li a:active {
+  text-decoration: underline;
+
+}
+
+/* VIDEOEN I HEADEAREN/TOOL-BAREN start */
+.video-container {
+	width: 100%;
+  	max-width: 100%;
+    overflow:hidden;
+    display:block;
+    height: 300px;
+}
+.tm-toolbar, .tm-toolbar >.uk-container  {
+  padding: 0px;
+  max-width: 100%;
+  max-height: 100%;
+
+}
+#video {
+  	min-width: 100%;
+  	max-height: 100%;
+  	height: auto;
+    
+}
+/* VIDEOEN I HEADEAREN/TOOL-BAREN slut */
+
+
+}
+  /* STYLING AF LINKS I NAV-BAR start */
+
+.uk-navbar-nav>li>a,.uk-navbar-nav>li>a:hover, .link, .link:hover {
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:relative;
+  transition:0.5s color ease;
+  text-decoration:none;
+}
+
+.uk-navbar-nav>li>a:hover, .link:hover {
+  color: #e4b363;!important;
+}
+
+.uk-navbar-nav>li>a:after {
+  height:5px;
+  height:0.15rem;
+  width:0;
+  background:#e4b363;
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  bottom: 2em;
+  color: #e4b363;
+}
+
+.link:after{
+  height:5px;
+  height:0.15rem;
+  width:0;
+  background:#e4b363;!important;
+  content: "";
+  transition:0.5s all ease;
+  -webkit-backface-visibility:hidden;
+          backface-visibility:hidden;
+  position:absolute;
+  bottom: -0.25em;
+  color: #e4b363;
+  
+}
+.uk-navbar-nav>li>a.after:hover:after, .link:hover:after{
+  width:25%;
+}
+  /* STYLING AF LINKS I NAV-BAR slut */
+
+
+/* NYHEDSBREVET I "FOOTEREN" start */
+
+.hustle-modal-body {
+	border-radius: 10px 0px 0px 10px;
+}
+/* NYHEDSBREVET I "FOOTEREN" start */
+
+/* SOCIALE MEDIER I FOOTEREN start */
+.soMe { 
+  	margin: auto;
+    width: 80px;
+    height: 80px;
+  }
+.soMe:hover {
+	cursor: pointer;
+  	background-color: #e4b363;
+}
+.soMe img {
+	height: 50px;
+  	width: 50px;
+  	margin: auto;
+  	margin-top: 25%;	
+}
+/* SOCIALE MEDIER I FOOTEREN slut */
+
+/* FORSIDE - SLIDEREN MED UDTALELSER start */
+#text-slider article {
+	line-height: 150%;
+}
+
+#text-slider-controls {
+	display: none;
+}
+
+.text-slideshow article span {
+	float: right;
+  	margin-top: 25px;
+}
+#text-slider .text-slideshow article, #text-slider .text-slideshow article span {
+	font-family: 'Brandon Grotesque'!important;
+}
+/* FORSIDE - SLIDEREN MED UDTALELSER slut */
+
+/* KONTAKT - KONTAKTFORMULAR start */
+
+.wpcf7 {
+	background-color: #BACDB0;
+  	width: 95%;
+  	margin: auto;
+
+  	color: white;
+}
+
+.wpcf7-form {
+	padding: 40px 0px 40px 0px;
+}
+
+.wpcf7-form p label input, .wpcf7-form p label textarea {
+	margin: auto;
+  width: 88%;
+  border: none;
+  	
+}
+.wpcf7-form p {
+	margin: auto; 
+  margin-left: 10%;
+  padding-top: 10px;
+}
+
+.wpcf7-form p label {
+  height: 30px;
+  width: 100%;
+}
+
+.wpcf7-form p label input {
+	height: 30px;
+}
+.wpcf7-submit {
+	width: 90%;
+	color: white; 
+	background-color: #757780;
+  height: 40px;
+  font-size: 1em;
+  border: none;
+  margin-top: 10px;
+}
+.wpcf7-submit:hover {
+	background-color: #e4b363;
+  cursor: pointer;
+}
+
+.wpcf7-textarea {
+  height: 150px;
+}
+
+/* KONTAKT - KONTAKTFORMULAR slut */
+
+
+/* KONTAKT - KORT start */
+
+#kort img {
+	height: auto;
+  overflow: hidden;
+  margin-top: -200px;
+  width: 100%;
+  padding: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+/* KONTAKT - KORT slut */
+
+
+/* BOOKING - STYLING AF KALENDER: TABEL, RÆKKER, CELLER ETC. start */
+.cal-container {
+	font-family: 'Lato', sans-serif;
+	margin-top: 80px;
+	background-color: #b4c3ad;
+	padding: 30px;
+  	width: 80%;
+    margin: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.cal-container h3 {
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	padding-bottom: 20px;
+}
+.cal-container a {
+	color: white;
+	text-decoration: none;
+}
+.cal-container a:hover {
+	color: #e4b363;
+}
+.cal-frame {
+	background-color: white;
+	padding: 20px;
+}
+
+#prev {
+  padding-right: 30px;
+}
+#next {
+  padding-left: 30px;
+}
+th {
+
+	height: 30px; 
+	text-align: center;
+	font-weight: 700;
+
+}
+td {
+	background-color: #b4c3ad;
+	color: white;
+	height: 100px;
+}
+td:hover {
+	background-color: #e4b363;
+	cursor: pointer;
+}
+.today {
+	background-color: #476a6f;
+  color: #FFF !important;
+}
+
+th:nth-of-type(7),td:nth-of-type(7) {
+	color: #476a6f;
+}
+th:nth-of-type(1),td:nth-of-type(1) {
+	color: #476a6f;
+}
+
+  /* Styling af celler ved booking - rød */
+.booket {
+  background-color: #bb4949!important;
+}
+  /* Styling af tidligere aktive "datoer" - grey out */
+.inaktiv {
+  background-color: #CCC;
+}
+/* BOOKING - STYLING AF KALENDER: TABEL, RÆKKER, CELLER ETC. slut */
+
+
+/* BOOKING - STYLING AF MODAL-BOX start */
+  /* Modal-boxen (baggrunden) */
+.MINmodal {
+    display: none; /* Gemt ved default */
+    position: fixed; /* Fikseret */
+    z-index: 1; /* verst */
+    left: 0;
+    top: 0;
+    width: 100%; /* Max bredde */
+    height: 100%; /* Max hjde */
+    overflow: auto; /* scroll - hvis ndvendigt */
+    background-color: rgb(0,0,0); /* Fallback farve */
+    background-color: rgba(0,0,0,0.7); /* Sort/hvid opacity */
+}
+
+/* Luk-knappen */
+.lukKnap {
+    color: #757780;
+    float: right;
+    padding-right: 5%;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.lukKnap:hover,
+.lukKnap:focus {
+    color: #e4b363;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/* Modal-box indholdet */
+.MITmodal-content {
+    background-color: #b4c3ad;
+    margin: 10% auto; /* 15% fra toppen og centreret */
+    padding: 20px;
+    border: 1px solid #888;
+    border-radius: 0;
+    width: 40%;
+}
+/* Formen i modal-boxen */
+#form-container {
+	margin: auto;
+	padding: 0% 0% 8% 5%;
+	font-family: 'Brandon Grotesque', Lato, sans-serif;
+	
+}
+.MITmodal-content #h2box h2 {
+	font-family: 'Brandon Grotesque', Lato, sans-serif;
+	font-size: 1.2em;
+	color: white;
+	text-align: center;
+  	
+}
+
+#h2box h2 {
+	display: inline-block;
+  text-align: center;
+}
+
+.MITmodal-content #h2box {
+	padding-left: 5%;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+  padding-top: 10px;
+}
+
+#headline {
+	color: #757780!important;
+	padding-left: 10px;
+}
+
+#MINform>input,#MINform>select {
+	width: 95%;
+	height: 40px;
+	padding-left: 15px;
+	margin-top: 15px;
+	border: none;
+}
+#MINform>option {
+	padding-left: 15px;
+}
+#skole, #klasse, #book, #annuller {
+	width: 46%!important;
+}
+#klasse, #annuller {
+	margin-left: 2%;
+}
+#knapper {
+	width: 100%;
+}
+
+#book, #annuller {
+	text-align: center;
+	height: 50px;
+	border: none;
+	margin-top: 8%; 
+	background-color: #757780;
+	color: white;
+}
+
+#book:hover, #annuller:hover {
+	background-color: #e4b363;
+	cursor: pointer;
+}
+  /* Styling af validerings tekst ved INPUT FELT */
+#MINform span {
+	color: #bb4949;
+}
+/* BOOKING - STYLING AF MODAL-BOX slut */
+
+
+/* BOOKING - STYLING AF BESKED VED SUBMIT start */
+.booking-meddelse {
+  margin: auto;
+  height: 150px;
+  width: 600px;
+  text-align: center;
+  background-color: #f5fbef;
+  padding: 50px 100px;
+
+}
+#succes {
+  color: #476a6f;
+}
+
+#fejl {
+  color: #bb4949;
+}
+/* BOOKING - STYLING AF BESKED VED SUBMIT slut */
+
+

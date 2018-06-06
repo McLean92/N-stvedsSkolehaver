@@ -2,7 +2,7 @@
 $host="localhost"; // Host navn
 $username="*******"; // Mysql brugernavn
 $password="*******"; // Mysql kodeord
-$db_name="greentouch"; // Database navn
+$db_name="*******"; // Database navn
 
 
 
